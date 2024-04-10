@@ -1,0 +1,35 @@
+.todos-container {
+  background-color: #000;
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.delete-shape {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.delete-shape p {
+  color: #000;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.todo-text h3 {
+  font-size: 20px;
+  padding: 8px 0;
+}
+
+.todo-text p {
+  font-size: 18px;
+}
